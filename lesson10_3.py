@@ -24,5 +24,7 @@ def getStudents() -> list[list]:
 
     return students
 
-students:list[list] = getStudents()
-print(students)
+
+if __name__ == '__name__':
+    students:list[list] = getStudents()
+    print(students)
