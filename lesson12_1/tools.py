@@ -1,3 +1,4 @@
+#將def function整合到tools,再到main呼叫tools getStudents,save_to_csv
 from random import randint,choices
 import csv
 from csv import DictWriter
