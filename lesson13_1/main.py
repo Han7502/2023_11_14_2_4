@@ -1,5 +1,5 @@
 import pyinputplus as pyip
-from tools import getStudents,save_to_csv
+from tools import getStudents,save_to_csv,save_to_excel
 
 
 if __name__ == "__main__":
@@ -9,5 +9,6 @@ if __name__ == "__main__":
     format = pyip.inputChoice(["1","2"],"請問要輸出哪一格式:\n按1 excel\n按2 csv\n請選擇:")
     if format == "1":
         print("儲存為excel檔")
+        save_to_excel(students,fileName)
     else:
         save_to_csv(students,fileName)
