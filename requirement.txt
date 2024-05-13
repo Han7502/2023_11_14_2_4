@@ -2,3 +2,4 @@ PyInputPlus
 openpyxl #使用excel
 requests #開啟連結的外部工具
 pandas  #pandas 外部套件
+matplotlib  #繪圖
