@@ -3,3 +3,4 @@ openpyxl #使用excel
 requests #開啟連結的外部工具
 pandas  #pandas 外部套件,安裝pandas時就會載入NumPy了,NumPy可以很快地製作二維的資料
 matplotlib  #繪圖
+SQLAlchemy  #資料庫
